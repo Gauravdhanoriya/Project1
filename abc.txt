@@ -1,0 +1,839 @@
+    1  ls
+    2  git clone https://github.com/Gauravdhanoriya/mydevopsclass.git
+    3  ls
+    4  pwd
+    5  cd mydevopsclass/
+    6  ls
+    7  ls -a
+    8  ls
+    9  git status
+   10  vi index.html
+   11  ls
+   12  git status
+   13  git add index.html 
+   14  git status
+   15  git commit -m "Added index.html file"
+   16  git config --global user.name "Gaurav"
+   17  git config --global user.email "Gaurav@gaurav.com"
+   18  git status
+   19  vi index.html
+   20  git status
+   21  git add index.html 
+   22  git status
+   23  vi index.thml
+   24  vi index.html
+   25  git status
+   26  git commit -m "Second commit"
+   27  git status
+   28  git status 
+   29  git add *
+   30  git commit -m "third commit"
+   31  git log
+   32  git push origin master
+   33  git show 6c1e516ccf9d0f606992832989daa178b3288146
+   34  git show 6c1e516
+   35  exit
+   36  git
+   37  yum install git
+   38  git
+   39  pwd
+   40  ls
+   41  cd mydevopsclass/
+   42  ls
+   43  cat index.html 
+   44  cat README.md 
+   45  git
+   46  yum install git
+   47  pwd
+   48  mkdir practice
+   49  ls
+   50  rm -rf practice/
+   51  ls
+   52  cd..
+   53  cd ..
+   54  pwd
+   55  ls
+   56  mkdir practice
+   57  ls
+   58  cd practice/
+   59  ls
+   60  git clone https://github.com/Gauravdhanoriya/GItInstallPractice.git
+   61  ls
+   62  cd GItInstallPractice/
+   63  ls
+   64  cd ..
+   65  ls -a
+   66  pwd
+   67  cd ..
+   68  ls -a
+   69  cd practice/
+   70  ls -a
+   71  cd ..
+   72  cd mydevopsclass/
+   73  ls -a
+   74  cd ..
+   75  cd practice/
+   76  ls -a
+   77  cd GItInstallPractice/
+   78  ls -a
+   79  git status
+   80  pwd
+   81  vim practice,txt
+   82  rm -rf practice,txt 
+   83  ls
+   84  vim practice.txt
+   85  cd ..
+   86  pwd
+   87  ls
+   88  cd mydevopsclass/
+   89  ls
+   90  git logs
+   91  git log
+   92  vi index2.html
+   93  vi index3.html
+   94  ls
+   95  git ls-files
+   96  ls
+   97  git add *
+   98  git ls-files
+   99  git commit -m "Fourth commit"
+  100  git ls-files
+  101  git rm index3.html 
+  102  ls
+  103  git ls-files
+  104  git rm
+  105  vi index3.html'
+  106  vi index3.html
+  107  ls
+  108  git ls-list
+  109  git ls-files
+  110  git add *
+  111  git commit -m "Fifth commit"
+  112  git status
+  113  git logs
+  114  git log
+  115  git rm --cached index3.html 
+  116  ls
+  117  git ls-files
+  118  git status
+  119  ls
+  120  vi .gitignore
+  121  git status
+  122  git add *
+  123  git status
+  124  git add *ls
+  125  ls
+  126  git add .gitignore 
+  127  git status
+  128  mkdir src
+  129  ls
+  130  git status
+  131  git commit -m "sixth commit"
+  132  git status
+  133  cd src
+  134  vi functions.java
+  135  cd ..
+  136  git status
+  137  git add *
+  138  git status
+  139  git commit -m "seventh commit"
+  140  git status
+  141  vi .
+  142  vi .gitignore 
+  143  git status
+  144  cd src
+  145  vi functions.java 
+  146  cd ..
+  147  git status
+  148  git add *
+  149  git add .gitignore 
+  150  git commit -m "eigth comimt"
+  151  git stuat
+  152  git status
+  153  git push origin master
+  154  vi .gitignore 
+  155  git status
+  156  git add .gitignore 
+  157  git commit -m "nineth commit"
+  158  git push origin master
+  159  git rm src
+  160  git rm src -r
+  161  ls
+  162  mkdir src
+  163  cd src
+  164  vi functions.java
+  165  cd ..
+  166  git status
+  167  git commit -m "deleted src folder"
+  168  git push origin master 
+  169  ls
+  170  git ls-files
+  171  git logs 
+  172  git log
+  173  git log --oneline
+  174  git show f45ed4c
+  175  vi index1.html
+  176  git ad d*
+  177  git add *
+  178  git commit -m "tenth commit "
+  179  git status
+  180  git log --oneline
+  181  ls
+  182  vi index3.html
+  183  git status
+  184  vi index3.html
+  185  git status
+  186  git log --oneline
+  187  git status
+  188  cat .gitignore 
+  189  vi index2.html
+  190  git status
+  191  git commit -m "eleventh comit"
+  192  git commit -a -m "eleventh comit"
+  193  vi santhosh.html
+  194  git commit -a -m "twevlth comit"
+  195  git add *
+  196  git commit -m "13th commit
+  197  "
+  198  ls
+  199  git commit --amend -m
+  200  git commit --amend
+  201  git log --oneline
+  202  git commit --amend
+  203  git log --oneline
+  204  vi index2.html
+  205  git diff 
+  206  vi index1.html
+  207  git diff
+  208  git diff index1.html 
+  209  git add *
+  210  git diff
+  211  git diff --staged
+  212  git diff --staged index1.html 
+  213  git commit -m "14th commit"
+  214  git diff
+  215  git diff --staged
+  216  git fetch
+  217  exit
+  218  pwd
+  219  ls
+  220  cd practice/
+  221  ls
+  222  ls -a
+  223  cd GItInstallPractice/
+  224  ls -a 
+  225  cat practice.txt 
+  226  git status
+  227  git add practice.txt 
+  228  git status
+  229  git commit -m "Addes practice.txt file"
+  230  git status
+  231  git log
+  232  git oneline
+  233  git log --oneline
+  234  git push origin master
+  235  git show
+  236  git log
+  237  git status
+  238  ls
+  239  touch abc.txt
+  240  ls
+  241  git ls -files
+  242  git ls-files
+  243  pwd
+  244  ls -a
+  245  cd practice/
+  246  ls -a
+  247  cd GItInstallPractice/
+  248  ls -a
+  249  ls
+  250  git ls-files
+  251  git --list
+  252  git show
+  253  git show --oneline
+  254  git log
+  255  git log --oneline
+  256  git add*
+  257  git add *
+  258  git log
+  259  git status
+  260  git log
+  261  git -ls files
+  262  git ls-files
+  263  git status
+  264  git commit -m "added abc.txt"
+  265  git status
+  266  git push origin master
+  267  git status
+  268  rm -rf abc.txt 
+  269  git ls-files
+  270  git rm abc.txt
+  271  git ls-files
+  272  git push origin master
+  273  git ls-files
+  274  git commit -m "deleted abc.txt"
+  275  git push origin master
+  276  git ls-files
+  277  vi .gitignore
+  278  touch bbc.txt
+  279  git add *
+  280  git commit -m "created ignore file"
+  281  git add .gitignore 
+  282  git commit -m "created ignore file1"
+  283  git status
+  284  git push origin master
+  285  get status
+  286  git status
+  287  git log --oneline
+  288  git show 9481255
+  289  ls
+  290  cd ..
+  291  ls
+  292  cd ..
+  293  ls
+  294  cd mydevopsclass/
+  295  ls
+  296  git status
+  297  git log --oneline
+  298  git tag -a newversion d998c5a -m "added tag for tenth commmit"
+  299  git log --oneline
+  300  git show d998c5a 
+  301  git show newversion
+  302  git log --oneline
+  303  git revert 101351a 
+  304  git log --oneline
+  305  ls
+  306  vi index2.html 
+  307  git add *
+  308  git commit -m "latest commit"
+  309  git status
+  310  git log --oneline
+  311  git revert b4bb419 
+  312  git log --oneline
+  313  vi index2.html 
+  314  git reset --hard 39420b6
+  315  git log --oneline
+  316  git status
+  317  vi index2.html 
+  318  git stash
+  319  git stash list
+  320  git status 
+  321  cat index2.html 
+  322  git stash pop
+  323  cat index2.html 
+  324  vi index3.html 
+  325  git status
+  326  vi index1.html 
+  327  git status
+  328  git stash -p
+  329  git stash
+  330  git status
+  331  git stash list
+  332  git pop
+  333  git stash pop'
+  334  git stash pop
+  335  git log --oneline
+  336  git revert 39420b6 
+  337  git status
+  338  git add *
+  339  git commit -m "new commit"
+  340  git status
+  341  git log --oneline
+  342  ls
+  343  vi index.html
+  344  git stash list
+  345  vi index2.html 
+  346  vi index1.html 
+  347  git status
+  348  git stash -p
+  349  cat index.html 
+  350  cat index1.html 
+  351  cat index2.html 
+  352  git stataus
+  353  git status
+  354  git stash list 
+  355  git stash
+  356  git stash list
+  357  git status
+  358  git stash pop
+  359  cat index1.html 
+  360  cat index2.html 
+  361  git stash pop
+  362  git status
+  363  git stash -p
+  364  git stash
+  365  git stash list
+  366  git stash apply stash@{1}
+  367  git stash list
+  368  ls
+  369  git status
+  370  git stash pop
+  371  git pop
+  372  git stash pop
+  373  cat index.html 
+  374  git add *
+  375  git commit -m "git stash example"
+  376  git stash pop
+  377  git stash list
+  378  cat index.html 
+  379  git stash list
+  380  git status
+  381  cat index2.html
+  382  cat index1.html
+  383  git stash apply stash@{0}
+  384  git stash list
+  385  cat index1.html 
+  386  git stash pop
+  387  git stash list
+  388  git status
+  389  git add *
+  390  git commit -m "coimmit message"
+  391  git status
+  392  git stash pop
+  393  git status
+  394  git log --oneline
+  395  exit
+  396  ls
+  397  cd practice/
+  398  ls
+  399  cd GItInstallPractice/
+  400  ls
+  401  git status
+  402  git log
+  403  git log --oneline
+  404  git sho wc1e3162
+  405  git show c1e3162
+  406  git ls-files
+  407  ls 
+  408  ll
+  409  git rm bbc.txt 
+  410  ls
+  411  git ls-files
+  412  touch cache.txt
+  413  git add*
+  414  git commit -m "adding cache.txt"
+  415  git statis
+  416  git status
+  417  ls
+  418  git status
+  419  git add cache.txt 
+  420  git status
+  421  git commit -m "adding cache.txt"
+  422  git status
+  423  git push origin master
+  424  git status
+  425  git rm cache.txt 
+  426  ls
+  427  git ls-files
+  428  git push origin master
+  429  git rm--cached cache.txt
+  430  git rm --cached cache.txt
+  431  git ls--files
+  432  git ls-- files
+  433  git ls-files
+  434  ll
+  435  touch text.txt
+  436  ls
+  437  git status
+  438  git commit -m "Deleted cache and added text"
+  439  git status
+  440  git push origin master
+  441  ls
+  442  git add text.txt 
+  443  git status
+  444  git commit -m "adding text.txt"
+  445  git push origin master
+  446  git ls-files
+  447  ls
+  448  vim text.txt 
+  449  cat text.txt 
+  450  git commit -a -m 
+  451  commit -a -m "updates to text.txt
+  452  "
+  453  commit -a -m "updates to text.txt"
+  454  commit -a-m "updates to text.txt"
+  455  git commit -a -m "updates to text.txt"
+  456  git push origin master
+  457  git commit --ammend
+  458  git commit--ammend
+  459  git commit--amend
+  460  git commit --amend
+  461  git status
+  462  git list
+  463  git show
+  464  git list
+  465  git --help
+  466  git log
+  467  git log--oneline
+  468  git log --oneline
+  469  git diff
+  470  git diff text.txt 
+  471  vi text.txt 
+  472  git diff
+  473  git ls-files
+  474  git add*
+  475  git add *
+  476  git add text.txt 
+  477  git diff text.txt 
+  478  vi text.txt 
+  479  git diff
+  480  git aad *
+  481  git add *
+  482  git add text.txt 
+  483  git diff
+  484  git diff --stages
+  485  git diff --stageg
+  486  git diff --staged
+  487  vi text.txt 
+  488  git diff
+  489  git diff --staged
+  490  git add*
+  491  git add text.txt 
+  492  git diff --staged
+  493  git commit -m "add changes to text.txt"
+  494  git diff --staged
+  495  git diff
+  496  git diff --staged text.txt 
+  497  git --log
+  498  git stauts
+  499  git status
+  500  git show
+  501  gir log
+  502  git log
+  503  git log --oneline
+  504  git tag -a updated1 9e82cc3 -m "addedd"
+  505  git log --oneline
+  506  exit
+  507  cd 
+  508  pwd
+  509  ls
+  510  cd practice/
+  511  cd GItInstallPractice/g
+  512  cd GItInstallPractice/
+  513  ls
+  514  git list --oneline
+  515  git log --oneline
+  516  git revert aa0076c
+  517  git log --oneline
+  518  git log --oneline
+  519  git reset --hard 9481255
+  520  git log --oneline
+  521  git push origin master
+  522  git commit -m "After reset"
+  523  git push origin master
+  524  git push origin master
+  525  git status
+  526  git push origin master
+  527  git log --oneline
+  528  git push origin master
+  529  git log --oneline
+  530  touch az.txt
+  531  git add *
+  532  git add az.txt 
+  533  git commit -m "Added az.txt"
+  534  git push origin master
+  535  git status
+  536  git push --force origin master
+  537  git ls-files
+  538  git log --oneline
+  539  git log --oneline
+  540  git reset --hard 60bc3c4
+  541  git log --oneline
+  542  git push --force origin master
+  543  git status
+  544  cd ..
+  545  ls
+  546  cd ..
+  547  ls
+  548  cd mydevopsclass/
+  549  ls
+  550  git log --oneline
+  551  git pull
+  552  git status
+  553  git pull
+  554  git status
+  555  git push origin master
+  556  vi index2.html 
+  557  git add *
+  558  git commit -m "added index2.html"
+  559  git pull 
+  560  cat index2.html
+  561  git log --oneeline
+  562  git log --oneline
+  563  vi index1.html 
+  564  git pull
+  565  cat index1.html 
+  566  git status
+  567  vi index.html
+  568  git pull
+  569  git status
+  570  git add *
+  571  git commit -m "local machine changes"
+  572  git pull
+  573  vi index.html 
+  574  git status
+  575  git add *
+  576  git commit -m "resovled conflict"
+  577  git log --oneline
+  578  git push origin master
+  579  git pull
+  580  git pull
+  581  git fetch
+  582  git status
+  583  cat index.html
+  584  git fetch
+  585  git pull
+  586  git log -- oneline
+  587  git log --oneline
+  588  git reset --hard 39420b6
+  589  git push --force origin master
+  590  git status
+  591  git log --oneline
+  592  vi index2.html 
+  593  git add *
+  594  git commit -m "new changes on 10th commuit"
+  595  git log --oneline
+  596  git branches
+  597  git branch
+  598  git branch dev
+  599  git branch
+  600  gti checkout dev
+  601  git checkout dev
+  602  git branch
+  603  git log --oneline
+  604  vi santhosh.html
+  605  git add *
+  606  git commit -m "santhosh file"
+  607  git status
+  608  git log --oneline
+  609  git checkout master
+  610  vi gaurav.html
+  611  git add *
+  612  git commit -m "new changes in master"
+  613  git status
+  614  gti log --oneline
+  615  git log --oneline
+  616  git checkout dev
+  617  git log --oneline
+  618  git status
+  619  git brach
+  620  git branch'
+  621  git branch'
+  622  git branch
+  623  gti checkout master
+  624  git checkout master
+  625  git merge dev
+  626  ls
+  627  git status
+  628  git checkout dev
+  629  git push origin dev
+  630  git checkout master
+  631  git push origin master
+  632  git branch
+  633  git checkout dev
+  634  git branch -m dev1
+  635  git branch
+  636  git branch -m dev1 dev2
+  637  git branch
+  638  ll
+  639  git clone https://github.com/Gauravdhanoriya/Project1.git
+  640  ll
+  641  cd Project1/
+  642  ll
+  643  vim 1.txt
+  644  git add *
+  645  git commit -m "Added 1.txt"
+  646  git status
+  647  git ls--files
+  648  git ls--file
+  649  git ls --files
+  650  git ls --list
+  651  git ls-files
+  652  git status
+  653  ls
+  654  vim 1.txt 
+  655  git diff
+  656  git --help
+  657  git man
+  658  man git
+  659  git log --oneline
+  660  git log
+  661  git add *
+  662  git diff --staging
+  663  git diff --stage
+  664  git diff --stageing
+  665  git commit -m "Made changes to 1.txt"
+  666  git log
+  667  git status
+  668  ls
+  669  ll
+  670  vi .gitignore
+  671  git add .gitgitnore
+  672  git add .gitignore
+  673  git commit -m "adding .gitignore"
+  674  touch 2.txt
+  675  git log --oneline
+  676  git add *
+  677  git tag -a -m "Master Branch Checkpoint" 462459d
+  678  git log --oneline
+  679  git tag -a 462459d -m "Master Branch checkpoint"
+  680  git log --oneline
+  681  git tag 462459d "Master Branch checkpoint"
+  682  git tag "462459d" "Master Branch checkpoint"
+  683  git tag "Master Branch checkpoint" "462459d"
+  684  git tag Master Branch checkpoint 462459d
+  685  git log --oneline
+  686  git tag -d 462459d
+  687  git log --oneline
+  688  git tag -a 462459d -m "Master Branch checkpoint"
+  689  git log --oneline
+  690  tag -d 462459d
+  691  git tag -d 462459d
+  692  git tag -a Mater_Checkpoint 462459d -m "Createred Master tag"
+  693  git log --oneline
+  694  git show Mater_Checkpoint
+  695  git commit -m "Changes done in master"
+  696  git log --oneline
+  697  git branch
+  698  git branch dev
+  699  git branch
+  700  git checkout dev
+  701  git branch
+  702  pwd
+  703  touch 3.txt 4.txt
+  704  git rm 4.txt 
+  705  git rm 4.txt
+  706  ll
+  707  git status
+  708  git log --oneline
+  709  git add *
+  710  git status
+  711  git commit -m "Added 3 and 4.txt to LR"
+  712  branch checkout master
+  713  git branch
+  714  git checkout master
+  715  git branch
+  716  git rm 4.txt "Removed 4.txt"
+  717  ll
+  718  git checkout dev
+  719  ll
+  720  git checkout master
+  721  git rm 1.txt 
+  722  git add *
+  723  git commit -m "Removed 1.txt"
+  724  ll
+  725  git log --oneline
+  726  git reset --hard f928bd7
+  727  git log --oneline
+  728  git brach dev
+  729  git branch
+  730  git log --oneline
+  731  git branch dev
+  732  ll
+  733  git checkout dev
+  734  ll
+  735  git log --oneline
+  736  git reset --hard 462459d
+  737  git log --oneline
+  738  ls
+  739  git bracnh
+  740  git bramch
+  741  git branch
+  742  git touch 3.txt 4.txt
+  743  touch 3.txt 4.txt
+  744  ll
+  745  git add *
+  746  git commit -m "Adding 3 and 4.txt"
+  747  git status
+  748  git checkout master
+  749  git status
+  750  git log --oneline
+  751  git reset --hard 462459d
+  752  git checkout dev
+  753  vi 1.txt 
+  754  git add *
+  755  git commit -m "Added changes to 1.txt"
+  756  git checkout master
+  757  ls
+  758  ll
+  759  cat 1.txt 
+  760  git status
+  761  git log --oneline
+  762  git checkout dev
+  763  git log --oneline
+  764  git reset --hard 2d6e268
+  765  git add *
+  766  git commit -m "reset"
+  767  git log --oneline
+  768  git checkout master
+  769  ll
+  770  git rm 1.txt 
+  771  git add *
+  772  git commit -m "Removed 1.txt"
+  773  git log --oneline
+  774  git checkout dev
+  775  git log --oneline
+  776  git branch test
+  777  git tag -a Dev_checkpoint 2d6e268 -m "Added Dev checkpoint"
+  778  git log--oneline
+  779  git log --oneline
+  780  git checkout test
+  781  git branch
+  782  ll
+  783  cat README.md 
+  784  vi README.md 
+  785  git add *
+  786  git commit -m "Added the changes to README.md"
+  787  git log --oneline
+  788  git touch 5.txt
+  789  touch 5.txt
+  790  git fetch
+  791  git stash list
+  792  vi 5.txt 
+  793  git stash 5.txt 
+  794  ll
+  795  git add *
+  796  git commit -m "Before stash on test branch"
+  797  vi 5.txt 
+  798  cat 5.txt 
+  799  git stash
+  800  ll
+  801  cat 5.txt 
+  802  vi 5.txt 
+  803  git stash list
+  804  git stash pop
+  805  cat 5.txt 
+  806  git branch
+  807  git add *
+  808  git commit -m "Changes after Stash"
+  809  git checkout dev
+  810  vi 1.txt 
+  811  git add *
+  812  git commit -m "Added line in 1 before merge"
+  813  git checkout master
+  814  git log --oneline
+  815  ll
+  816  ls -a
+  817  vi 1.txt
+  818  git add *
+  819  git commit -m "Commited the 10th change"
+  820  git diff
+  821  git branch
+  822  git checkout test
+  823  git branch
+  824  git merge dev
+  825  git log --oneline
+  826  git branch
+  827  git checkout master
+  828  git branch
+  829  git merge test
+  830  vi 1.txt 
+  831  cat
+  832  cat 1.txt 
+  833  git add *
+  834  git commit -m "Resolved conflict"
+  835  git push origin master
+  836  git ls--files
+  837  git ls --files
+  838  history
+  839  history >> abc.txt
